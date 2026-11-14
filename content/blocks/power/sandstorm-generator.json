@@ -6,9 +6,9 @@
   "health": 250,
   "hasPower": true,
   "powerProduction": 0.8333333333333333,
-  "attribute": "sandstorm",
+  "attribute": "wind",
   "displayEfficiencyScale": 1,
-  "minEfficiency": 0.01,
+  "minEfficiency": -1,
   "generateEffect": "none",
   "requirements": [
     {"item": "pyrit", "amount": 50},

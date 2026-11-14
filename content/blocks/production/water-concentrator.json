@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Концентратор воды",
-  "description": "Извлекает маленькое количество влаги из окружающей среды и конденсирует её в невероятно маленькое количество жидкой воды",
+  "name": "Water concentrator",
+  "description": "Extracts a small amount of moisture from the surrounding environment and condenses it into an incredibly small quantity of liquid water.",
   "size": 1,
   "health": 100,
   "hasItems": false,
@@ -10,7 +10,7 @@
   "liquidCapacity": 30,
   "craftTime": 60,
   "outputLiquids": [
-    {"liquid": "water", "amount": 0.0166666666666667}
+    {"liquid": "water", "amount": 0.00166667}
   ],
   "requirements": [
     {"item": "fossil", "amount": 5},
@@ -18,11 +18,16 @@
   ],
   "category": "liquid",
   "research": {
-    "parent": "sand-fabric-weaver",
+    "parent": "sand-catcher",
     "requirements": [
-      {"item": "fossil", "amount": 300},
-      {"item": "sand-fabric", "amount": 200},
-      {"item": "quartz", "amount": 150}
+      {"item": "fossil", "amount": 50},
+      {"item": "sand-fabric", "amount": 250}
+    ],
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "quartz"
+      }
     ]
   },
   "drawer": {
@@ -35,10 +40,7 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "water",
-        "padLeft": 0.5,
-        "padBottom": 0.5,
-        "padTop": 0.5,
-        "padRight": 0.5
+        "padding": 0.5
       },
       {
         "type": "DrawDefault"
@@ -74,5 +76,5 @@
   "updateEffect": "none",
   "craftEffect": "none",
   "ambientSound": "hum",
-  "ambientSoundVolume": 0.8
+  "ambientSoundVolume": 0.1
 }

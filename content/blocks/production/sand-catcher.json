@@ -36,8 +36,9 @@
         "type": "DrawDefault"
       },
       {
-        "type": "DrawBlurSpin",
+        "type": "DrawRegion",
         "suffix": "-catcher",
+        "spinSprite": true,
         "rotateSpeed": 1.0
       }
     ]

@@ -1,5 +1,6 @@
 {
   "name": "Hematite",
+  "description": "A compound of iron and oxygen. Used as ammunition.",
   "cost": 67,
   "color": "994326",
   "research": "pyrit",

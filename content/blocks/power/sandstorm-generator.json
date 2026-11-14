@@ -1,0 +1,55 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Vortex mill",
+  "description": "Generates energy from gusts of wind during a sandstorm.",
+  "size": 2,
+  "health": 250,
+  "hasPower": true,
+  "hasItems": false,
+  "hasLiquids": false,
+  "powerProduction": 0.833333333333333333,
+  "consumes": [],
+  "requirements": [
+    {"item": "pyrit", "amount": 50},
+    {"item": "sand-fabric", "amount": 75}
+  ],
+  "category": "power",
+  "research": {
+    "parent": "small-burner-generator",
+    "requirements": [
+      {"item": "pyrit", "amount": 500},
+      {"item": "sand-fabric", "amount": 750}
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "SandStorm"
+      }
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "iconOverride":["-bottom","","-fan"],
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "e8d174",
+        "alpha": 0.8
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-fan",
+        "spinSprite": true,
+        "rotateSpeed": 1.0
+      }
+    ]
+  }
+}

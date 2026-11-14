@@ -1,6 +1,6 @@
 {
   "attrs": {
-    "wind": 1,
-    "sand": 1
+    "wind": 1.05,
+    "sand": 1.05
   }
 }

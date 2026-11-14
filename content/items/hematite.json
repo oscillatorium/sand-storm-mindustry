@@ -1,6 +1,6 @@
 {
-  "name": "Гематит",
-  "cost": 2,
+  "name": "Hematite",
+  "cost": 67,
   "color": "994326",
   "research": "pyrit",
   "hiddenOnPlanets": ["serpulo", "erekir"],

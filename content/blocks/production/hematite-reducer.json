@@ -1,13 +1,12 @@
 {
   "type": "GenericCrafter",
-  "name": "Восстановитель гематита",
-  "description": "Обжигает сульфид железа в кислородной среде, превращая его в гематит. Побочно выделяет диоксид серы.",
-  "details": "4FeS + 7O₂ → 2Fe₂O₃ + 4SO₂↑",
+  "name": "Hematite reducer",
+  "description": "Roasts troilite in an oxygen-rich environment, converting it into hematite. Sulfur dioxide is released as a by-product.",
   "size": 3,
   "health": 400,
   "hasItems": true,
   "hasLiquids": true,
-  "hasPower": false,
+  "hasPower": true,
   "liquidCapacity": 30,
   "itemCapacity": 20,
   "craftTime": 60,
@@ -18,7 +17,8 @@
     ],
     "liquids": [
       {"liquid": "oxygen", "amount": 0.1166666666666667}
-    ]
+    ],
+    "power": 1.666666666666667
   },
   "outputItems": [
     {"item": "hematite", "amount": 2}

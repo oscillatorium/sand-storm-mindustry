@@ -25,7 +25,7 @@
   "research": {
     "parent": "sand-fabric-weaver",
     "requirements": [
-      {"item": "pyrit", "amount": 50},
+      {"item": "fossil", "amount": 50},
       {"item": "sand-fabric", "amount": 150}
     ]
   },

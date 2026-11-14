@@ -10,10 +10,10 @@
   "itemCapacity": 5,
   "attribute": "sand",
   "baseEfficiency": 0,
-  "boostScale": 1,
+  "boostScale": 1.01,
   "maxBoost": 1,
   "minEfficiency": -1,
-  "displayEfficiencyScale": 676767,
+  "displayEfficiencyScale": 1,
   "craftTime": 30,
   "outputItem": {"item": "sand", "amount": 1},
 

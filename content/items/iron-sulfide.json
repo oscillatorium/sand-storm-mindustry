@@ -1,5 +1,6 @@
 {
-  "name": "Сульфид железа",
+  "name": "Troilite",
+  "description": "A product of pyrite roasting. Contains a small amount of sulfur.",
   "color": "111122",
   "research": "pyrit",
   "hiddenOnPlanets": ["serpulo", "erekir"],

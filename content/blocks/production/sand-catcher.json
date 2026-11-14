@@ -13,7 +13,7 @@
   "boostScale": 1,
   "maxBoost": 1,
   "minEfficiency": -1,
-  "displayEfficiencyScale": 1.01,
+  "displayEfficiencyScale": 1.1,
   "craftTime": 30,
   "outputItem": {"item": "sand", "amount": 1},
 

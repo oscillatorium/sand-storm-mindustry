@@ -1,0 +1,40 @@
+{
+  "type": "AttributeCrafter",
+  "name": "Sand catcher",
+  "description": "Filters sand particles directly from the air during a sandstorm.",
+  "size": 1,
+  "health": 50,
+  "hasPower": false,
+  "hasItems": true,
+  "hasLiquids": false,
+  "itemCapacity": 20,
+  "attribute": "sand",
+  "baseEfficiency": 0,
+  "boostScale": 1,
+  "maxBoost": 1,
+  "minEfficiency": -1,
+  "displayEfficiencyScale": 1,
+  "craftTime": 30,
+  "outputItem": {"item": "sand", "amount": 1},
+
+  "requirements": [
+    {"item": "fossil", "amount": 5},
+    {"item": "sand-fabric", "amount": 15}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "sand-fabric-weaver",
+    "requirements": [
+      {"item": "pyrit", "amount": 50},
+      {"item": "sand-fabric", "amount": 150}
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

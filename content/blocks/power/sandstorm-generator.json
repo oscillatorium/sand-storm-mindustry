@@ -1,14 +1,15 @@
 {
-  "type": "ConsumeGenerator",
+  "type": "ThermalGenerator",
   "name": "Vortex mill",
   "description": "Generates energy from gusts of wind during a sandstorm.",
   "size": 2,
   "health": 250,
   "hasPower": true,
-  "hasItems": false,
-  "hasLiquids": false,
-  "powerProduction": 0.833333333333333333,
-  "consumes": [],
+  "powerProduction": 0.8333333333333333,
+  "attribute": "sandstorm",
+  "displayEfficiencyScale": 1,
+  "minEfficiency": 0.01,
+  "generateEffect": "none",
   "requirements": [
     {"item": "pyrit", "amount": 50},
     {"item": "sand-fabric", "amount": 75}
@@ -29,7 +30,7 @@
   },
   "drawer": {
     "type": "DrawMulti",
-    "iconOverride":["-bottom","","-fan"],
+    "iconOverride": ["-bottom", "", "-fan"],
     "drawers": [
       {
         "type": "DrawRegion",

@@ -1,8 +1,8 @@
 {
-  "name": "Астерит",
-  "description": "Прочный материал полученный из канавы. Используется в качестве теплоносителя в продвинутых постройках.",
+  "name": "Asterite",
+  "description": "A durable material that arrived from space. Used as a heat-transfer medium in advanced structures.",
   "cost": 5,
-  "color": "00000000",
+  "color": "ff884200",
   "research": "pyrit",
   "hiddenOnPlanets": ["serpulo", "erekir"]
 }

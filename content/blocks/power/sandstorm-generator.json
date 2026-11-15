@@ -1,6 +1,6 @@
 {
   "type": "ThermalGenerator",
-  "name": "Vortex mill",
+  "name": "Vortex Mill",
   "description": "Generates energy from gusts of wind during a sandstorm.",
   "size": 2,
   "health": 250,

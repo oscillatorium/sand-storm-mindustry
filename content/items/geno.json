@@ -1,0 +1,12 @@
+{
+  "name": "Geno",
+  "description": "Radioactive metal. Used for energy generation, ammunition and upgrading structures.",
+  "cost": 1,
+  "color": "23ff00",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 1,
+  "charge": 0,
+  "research": "fossil",
+  "hiddenOnPlanets": ["serpulo", "erekir"]
+}

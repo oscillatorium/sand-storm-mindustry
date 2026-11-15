@@ -1,10 +1,7 @@
-
-name: quartz
-description: Quartz, used in liquid buildings and as an ammo
+{
+  "name": "Quartz"
+  "description": "Used in liquid logistic and as an ammo."
   "cost": 1,
   "color": "ffffff",
-  "flammability": 0,
-  "explosiveness": 0,
-  "radioactivity": 0,
-  "charge": 0
-  research: fossil
+  "research": "fossil"
+}

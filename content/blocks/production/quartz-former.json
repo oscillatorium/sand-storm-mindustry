@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Формовщик кварца",
-  "description": "Слепляет песок в цельные куски кварца с помощью воды.",
+  "name": "Quartz Former",
+  "description": "Binds sand into quartz using water.",
   "size": 2,
   "health": 250,
   "hasItems": true,

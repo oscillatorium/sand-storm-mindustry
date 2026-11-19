@@ -1,8 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Обжигатель пирита",
-  "description": "Обжигает пирит в бескислородной среде, а затем окисляет серу с помощью кислорода для получения диоксида серы. Побочно производит сульфид железа.",
-  "details": "Для химиков: здесь происходит реакция именно термического разложения, в не окислительного обжига, это происходит в окислителе пирита",
+  "name": "Pyrite Roastet",
+  "description": "Roasts pyrite in an oxygen-free environment and then oxidizes the sulfur using oxygen to produce sulfur dioxide. Troilite is produced as a by-product.",
   "size": 2,
   "health": 200,
   "hasItems": true,

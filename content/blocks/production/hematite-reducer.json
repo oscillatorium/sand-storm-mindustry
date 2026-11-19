@@ -1,6 +1,6 @@
 {
   "type": "GenericCrafter",
-  "name": "Hematite reducer",
+  "name": "Hematite Reducer",
   "description": "Roasts troilite in an oxygen-rich environment, converting it into hematite. Sulfur dioxide is released as a by-product.",
   "size": 3,
   "health": 400,

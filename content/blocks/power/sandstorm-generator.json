@@ -38,7 +38,7 @@
   },
   "drawer": {
     "type": "DrawMulti",
-    "iconOverride": ["","fan"],
+    "iconOverride": ["-icon"],
     "drawers": [
       {
         "type": "DrawRegion",
@@ -51,7 +51,7 @@
         "type": "DrawGlowRegion",
         "suffix": "-glow",
         "color": "e8d174",
-        "alpha": 0.8
+        "alpha": 0.5
       },
       {
         "type": "DrawBlurSpin",

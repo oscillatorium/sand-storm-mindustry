@@ -1,0 +1,28 @@
+{
+  "type": "ParticleWeather",
+  "name": "Radiolysis Field",
+  "drawParticles": true,
+  "drawNoise": false,
+  "particleRegion": "circle-shadow",
+  "color": "6dff7a",
+  "sizeMin": 2.5,
+  "sizeMax": 7.5,
+  "density": 2200,
+  "minAlpha": 0.25,
+  "maxAlpha": 0.85,
+  "baseSpeed": 0.05,
+  "sinScl": 40,
+  "sinMag": 12,
+  "force": 0,
+  "opacityMultiplier": 0.9,
+  "useWindVector": false,
+  "duration": 10800,
+  "sound": "hum",
+  "soundVol": 0.2,
+  "status": "radiation1",
+  "statusDuration": 60,
+  "attrs": {
+    "radiation": 1,
+    "water": -0.5
+  }
+}

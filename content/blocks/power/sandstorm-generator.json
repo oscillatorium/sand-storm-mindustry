@@ -46,9 +46,10 @@
         "alpha": 0.8
       },
       {
-        "type": "DrawBlurSpin",
+        "type": "DrawRegion",
         "suffix": "-fan",
-        "rotateSpeed": 1.0
+        "rotateSpeed": 1.0,
+        "rotateSprite": true
       }
     ]
   }

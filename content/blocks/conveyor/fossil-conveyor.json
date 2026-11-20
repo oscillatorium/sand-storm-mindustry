@@ -1,6 +1,6 @@
 {
 "type": "Conveyor",
-"name": "fossil conveyor",
+"name": "Fossil Conveyor",
 "junctionReplacement": "fossil-junction",
 "bridgeReplacement": "fossil-bridge-conveyor",
 "loadEffect": {

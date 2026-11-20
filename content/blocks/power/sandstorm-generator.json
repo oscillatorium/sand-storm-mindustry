@@ -1,15 +1,23 @@
 {
-  "type": "ThermalGenerator",
+  "type": "AttributeCrafter",
   "name": "Vortex Mill",
   "description": "Generates energy from gusts of wind during a sandstorm.",
   "size": 2,
   "health": 250,
   "hasPower": true,
-  "powerProduction": 0.8333333333333333,
+  "outputsPower": true,
+  "outputPower": 0.8333333333333333,
+
   "attribute": "wind",
-  "displayEfficiencyScale": 1,
+  "baseEfficiency": 0,
+  "boostScale": 0.25,
+  "maxBoost": 1,
   "minEfficiency": -1,
-  "generateEffect": "none",
+  "displayEfficiencyScale": 1,
+
+  "craftTime": 60,
+  "updateEffect": "none",
+  "craftEffect": "none",
   "requirements": [
     {"item": "pyrit", "amount": 50},
     {"item": "sand-fabric", "amount": 75}
@@ -30,12 +38,8 @@
   },
   "drawer": {
     "type": "DrawMulti",
-    "iconOverride": ["-bottom", "", "-fan"],
+    "iconOverride": ["", "-fan"],
     "drawers": [
-      {
-        "type": "DrawRegion",
-        "suffix": "-bottom"
-      },
       {
         "type": "DrawDefault"
       },
@@ -46,10 +50,10 @@
         "alpha": 0.8
       },
       {
-        "type": "DrawRegion",
+        "type": "DrawBlurSpin",
         "suffix": "-fan",
-        "rotateSpeed": 1.0,
-        "rotateSprite": true
+        "rotateSpeed": 5.0,
+        "blurThresh": 999
       }
     ]
   }

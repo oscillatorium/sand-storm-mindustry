@@ -1,0 +1,16 @@
+{
+  "type": "MagneticStorm",
+  "name": "Heat Mirage",
+  "color": "ffcf70",
+  "opacityMultiplier": 0.45,
+  "duration": 10800,
+  "sound": "none",
+  "soundVol": 0,
+  "status": "slow",
+  "statusDuration": 120,
+  "attrs": {
+    "heat": 0.5,
+    "water": -0.5,
+    "light": 0.5
+  }
+}

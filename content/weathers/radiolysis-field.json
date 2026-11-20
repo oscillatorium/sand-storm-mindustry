@@ -10,7 +10,7 @@
   "density": 2200,
   "minAlpha": 0.25,
   "maxAlpha": 0.85,
-  "baseSpeed": 0.05,
+  "baseSpeed": 0.0005,
   "sinScl": 40,
   "sinMag": 12,
   "force": 0,

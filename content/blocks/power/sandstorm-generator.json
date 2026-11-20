@@ -4,7 +4,7 @@
   "description": "Generates energy from gusts of wind during a sandstorm.",
   "size": 2,
   "health": 250,
-  "hasPower": true,
+  "hasPower": false,
   "outputsPower": true,
   "outputPower": 0.8333333333333333,
 
@@ -38,8 +38,12 @@
   },
   "drawer": {
     "type": "DrawMulti",
-    "iconOverride": ["", "-fan"],
+    "iconOverride": ["","fan"],
     "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
       {
         "type": "DrawDefault"
       },

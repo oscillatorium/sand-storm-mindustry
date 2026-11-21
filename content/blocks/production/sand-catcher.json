@@ -40,7 +40,20 @@
         "suffix": "-catcher",
         "spinSprite": true,
         "rotateSpeed": 1.0
-      }
+      },
+      {
+        "type": "DrawParticles",
+        "color": "E1B996FF",
+        "alpha": 0.3,
+        "blending": "additive",
+        "particleSize": 1.5,
+        "reverse": false,
+        "particleRad": 12,
+        "particles": 12,
+        "fadeMargin": 1,
+        "rotateScl": 5,
+        "particleLife": 60
+      },
     ]
   }
 }
